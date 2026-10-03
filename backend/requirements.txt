@@ -1,0 +1,15 @@
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+pandas==2.1.1
+streamlit==1.28.1
+langchain>=0.1.0
+langchain-openai>=0.1.0
+openai>=1.6.1,<2.0.0
+requests==2.32.3 
+# ---- 정리 시 추가(2026-09-27): 백엔드 코드가 import하지만 위 목록에 없던 패키지 ----
+PyMuPDF
+selenium
+langchain-community
+faiss-cpu
+numpy
